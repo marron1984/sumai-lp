@@ -20,7 +20,7 @@ export const facilities: Facility[] = [
     building: '6階建',
     features: ['駅チカ', 'コンビニ近く', '閑静な住宅街'],
     highlight: '駅チカで便利',
-    image: '/images/facility-utajima.jpg',
+    image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop',
   },
   {
     id: 'tsukamoto',
@@ -31,7 +31,7 @@ export const facilities: Facility[] = [
     building: '7階建',
     features: ['インターネット無料', '最寄り駅近い', '商店街近く'],
     highlight: 'ネット無料',
-    image: '/images/facility-tsukamoto.jpg',
+    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop',
   },
   {
     id: 'toyoshin',
@@ -42,7 +42,7 @@ export const facilities: Facility[] = [
     building: '10階建',
     features: ['IHクッキングヒーター', '大型物件', '眺望良好'],
     highlight: 'IH完備・大型',
-    image: '/images/facility-toyoshin.jpg',
+    image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop',
   },
 ]
 

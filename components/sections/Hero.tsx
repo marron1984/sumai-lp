@@ -106,7 +106,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Right Content - Image Placeholder */}
+          {/* Right Content - Hero Image */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -114,15 +114,13 @@ export default function Hero() {
             className="relative"
           >
             <div className="relative bg-white/10 backdrop-blur-sm rounded-3xl p-4 shadow-2xl">
-              {/* Image Placeholder */}
-              <div className="aspect-[4/3] bg-gradient-to-br from-white/20 to-white/5 rounded-2xl flex items-center justify-center overflow-hidden">
-                <div className="text-center text-white/60 p-8">
-                  <div className="w-24 h-24 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
-                    <Heart className="w-12 h-12" />
-                  </div>
-                  <p className="text-lg font-medium">清潔で快適な居室</p>
-                  <p className="text-sm mt-2">笑顔のシニアの方々</p>
-                </div>
+              {/* Hero Image - Smiling Senior */}
+              <div className="aspect-[4/3] bg-gradient-to-br from-white/20 to-white/5 rounded-2xl overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=800&h=600&fit=crop"
+                  alt="笑顔のシニアの方"
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Floating Badge */}

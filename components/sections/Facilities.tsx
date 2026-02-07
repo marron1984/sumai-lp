@@ -64,14 +64,13 @@ export default function Facilities() {
         >
           {facilities.map((facility) => (
             <motion.div key={facility.id} variants={cardVariants} className="card group">
-              {/* Image Placeholder */}
+              {/* Facility Image */}
               <div className="relative aspect-[4/3] bg-gradient-to-br from-primary-100 to-primary-50 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-primary-400 p-6">
-                    <Building2 className="w-16 h-16 mx-auto mb-3 opacity-50" />
-                    <p className="font-medium">{facility.building}</p>
-                  </div>
-                </div>
+                <img
+                  src={facility.image}
+                  alt={`${facility.name}の外観・内装`}
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
                 {/* Highlight Badge */}
                 <div className="absolute top-4 right-4">
                   <span className="badge bg-accent-300 text-gray-900 font-bold shadow-md">
